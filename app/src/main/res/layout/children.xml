@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upd"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name"
+        android:textColor="#1d3247"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#1d3247"
+        android:width="300dp"
+        android:background="@drawable/box"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1d3247"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/enter_age" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextAge"
+        android:textSize="25dp"
+        android:textColor="#1d3247"
+        android:width="300dp"
+        android:background="@drawable/box"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1d3247"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/enter_parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#1d3247"
+        android:width="300dp"
+        android:background="@drawable/box"
+        android:id="@+id/editTextParentName" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/border"
+        android:id="@+id/buttonSubmit" />
+
+
+</LinearLayout>
+

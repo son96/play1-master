@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Giggles</string>
+    <string name="action_settings">Settings</string>
+    <string name="paraentlogin">Parent
+                Login</string>
+    <string name="teacherlogin">Teacher Login</string>
+    <string name="forgetpassword">forget password</string>
+    <string name="loginhere">login here</string>
+    <string name="signuphere">Dont have an account signup here</string>
+    <string name="title_activity_pmain">Giggles</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tmain">Teachers</string>
+    <string name="enter_name">enter child name</string>
+    <string name="name">name</string>
+    <string name="enter_age">enter age</string>
+    <string name="age">age</string>
+    <string name="submit">submit</string>
+    <string name="enter_parent">enter parent name</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.play">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".LoginDecider"
+
+
+            />
+        <activity android:name=".ViewChildrenParent"></activity>
+        <activity android:name=".ParentLogin"
+            android:parentActivityName=".LoginDecider"/>
+        <activity android:name=".TeacherLogin"
+            android:parentActivityName=".LoginDecider">
+
+
+
+        </activity>
+        <activity android:name=".ViewDetails">
+
+
+
+        </activity>
+        <activity android:name=".ViewIndChildren"/>
+        <activity android:name=".TeacherSignup" />
+        <activity android:name=".ParentSignup" />
+
+        <activity
+            android:name=".PMainActivity"
+            android:label="@string/title_activity_pmain"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".TMainActivity"
+            android:label="@string/title_activity_tmain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        </activity>
+<activity android:name=".UpdateDetails">
+
+
+</activity>
+
+
+    </application>
+
+</manifest>

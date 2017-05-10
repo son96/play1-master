@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:background="@drawable/shapes"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:id="@+id/activity_teacher_signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/shapes"
+        tools:context="com.example.android.play.TeacherSignup">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:src="@drawable/splash"
+                android:layout_marginStart="1dp"
+                android:id="@+id/imageView"
+                android:layout_weight="0.04" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#16395B"
+            android:text="Sign Up"
+            android:textSize="25dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_user_name"
+            android:hint="Username"
+            android:id="@+id/tusername"
+            android:inputType="text"
+            android:textColor="#16395B"
+            android:drawableTint="#16395B"
+            android:textColorHint="#16395B"
+            android:fontFamily="sans-serif-thin"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="3dp"
+            android:drawableStart="@android:drawable/sym_action_email"
+            android:hint="Email"
+            android:id="@+id/temail"
+            android:textColor="#16395B"
+            android:drawableTint="#16395B"
+            android:textColorHint="#16395B"
+            android:inputType="text"
+            android:fontFamily="sans-serif-thin"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="3dp"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:hint="Password"
+            android:id="@+id/tpassword"
+            android:textColor="#16395B"
+            android:drawableTint="#16395B"
+            android:textColorHint="#16395B"
+            android:fontFamily="sans-serif-thin"
+            android:inputType="textPassword"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="3dp"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:hint="Confirm Password"
+            android:id="@+id/tcpassword"
+            android:textColor="#16395B"
+            android:drawableTint="#16395B"
+            android:textColorHint="#16395B"
+            android:fontFamily="sans-serif-thin"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/tsign_btn"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/border"
+            android:textAllCaps="false"
+            android:text="Signup"
+            android:textAlignment="center"
+            android:textColor="#16395B"
+            android:textScaleX="1.2"
+            android:textSize="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:textColor="#16395B"
+                android:text="Already have an account?"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginStart="80dp"
+                android:textSize="14dp"
+                />
+            <TextView
+                android:id="@+id/tlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/loginhere"
+                android:textColor="#16395B" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
